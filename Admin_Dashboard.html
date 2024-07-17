@@ -27,13 +27,13 @@
                 <br>
                 <form id="MainForm">
                     <div class="d-grid gap-2 mb-3">
-                        <a href="/Add_New_Loan.html" class="btn btn-primary">Add New Loan Files</a>
+                        <a href="Add_New_Loan.html" class="btn btn-primary">Add New Loan Files</a>
                     </div>
                     <div class="d-grid gap-2 mb-3">
-                        <a href="/Update_Today.html" class="btn btn-warning">Update Today Loan Queue</a>
+                        <a href="Update_Today.html" class="btn btn-warning">Update Today Loan Queue</a>
                     </div>
                     <div class="d-grid gap-2 mb-3">
-                        <a href="/Show_Today_Cust_View.html" class="btn btn-success">Show Today Loan Queue</a>
+                        <a href="Show_Today_Cust_View.html" class="btn btn-success">Show Today Loan Queue</a>
                     </div>
                     <div class="d-grid gap-2 mb-3">
                         <button type="button" id="signOutButton" class="btn btn-danger">Sign Out</button>
@@ -61,7 +61,7 @@
             MsgHead.innerText = `Admin with email ${UserCreds.email} Successfully Logged In!`;
             GreetHead.innerText = `Welcome Admin Bank of Ceylon ${UserInfo.branch.branchName} ${UserInfo.branch.branchCode}`;
         } else {
-            window.location.href = 'Login.html'; // Redirect to login page if no credentials found
+            window.location.href = 'index.html'; // Redirect to login page if no credentials found
         }
 
         // Sign-out function to clear session storage and redirect to login

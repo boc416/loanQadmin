@@ -27,13 +27,13 @@
                 <br>
                 <form id="MainForm">
                     <div class="d-grid gap-2 mb-3">
-                        <a href="../Admin/Add_New_Loan.html" class="btn btn-primary">Add New Loan Files</a>
+                        <a href="Add_New_Loan.html" class="btn btn-primary">Add New Loan Files</a>
                     </div>
                     <div class="d-grid gap-2 mb-3">
-                        <a href="../Admin/Update_Today.html" class="btn btn-warning">Update Today Loan Queue</a>
+                        <a href="Update_Today.html" class="btn btn-warning">Update Today Loan Queue</a>
                     </div>
                     <div class="d-grid gap-2 mb-3">
-                        <a href="../Admin/Show_Today_Cust_View.html" class="btn btn-success">Show Today Loan Queue</a>
+                        <a href="Show_Today_Cust_View.html" class="btn btn-success">Show Today Loan Queue</a>
                     </div>
                     <div class="d-grid gap-2 mb-3">
                         <button type="button" id="signOutButton" class="btn btn-danger">Sign Out</button>
@@ -68,7 +68,7 @@
         const SignOut = () => {
             sessionStorage.removeItem("user-creds");
             sessionStorage.removeItem("user-info");
-            window.location.href = 'Login.html';
+            window.location.href = 'index.html';
         }
 
         // Add event listener for sign out button click
